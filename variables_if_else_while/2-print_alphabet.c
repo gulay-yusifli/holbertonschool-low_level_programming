@@ -14,4 +14,5 @@ int main()
 		word++;
 	}
 	putchar('\n');
+	return (0);
 }
