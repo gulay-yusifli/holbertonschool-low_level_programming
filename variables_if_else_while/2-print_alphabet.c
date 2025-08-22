@@ -8,9 +8,9 @@ int main()
 {
 	char word = 'a';
 
-	while(word <= 'z')
+	while (word <= 'z')
 	{
-		putchar('%s', word);
+		putchar(word);
 		word++;
 	}
 	putchar('\n');
