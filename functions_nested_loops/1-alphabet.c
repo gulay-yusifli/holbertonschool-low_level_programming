@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - alhpabeta
  *
- * Return: Always 0 (Success)
+ * Return: endelss void
  */
 void print_alphabet(void)
 {
