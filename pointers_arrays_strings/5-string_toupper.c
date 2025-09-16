@@ -1,28 +1,23 @@
 #include "main.h"
 
 /**
- * rev_string - Reverses a string
- * @s: The string to be reversed
+ * string_toupper - kicik herfleri boyuk edir
+ * @s: sssssssss
  *
- * Description: This function reverses the characters in a string
- * using a two-pointer approach.
+ * Return: return edirrr
  */
-void rev_string(char *s)
+char *string_toupper(char *s)
 {
-	int i = 0, j = 0;
-	char z;
+	int i = 0;
 
-	while (s[j])
-		j++;
-
-	j--;
-
-	while (i < j)
+	while (s[i] != '\0')
 	{
-		z = s[i];
-		s[i] = s[j];
-		s[j] = z;
+		if (s[i] >= 'a' && s[i] <= 'z')
+		{
+			s[i] = s[i] - 32;
+		}
 		i++;
-		j--;
 	}
+
+	return (s);
 }
